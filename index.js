@@ -29,7 +29,6 @@ mongoose
   })
   .catch((error) => console.log(error));
 
-app.use(cors(corsOptions));
 
 app.use("/quizzes", quizzesRoute);
 app.use("/question", questionRoute);
